@@ -27,7 +27,7 @@ func CmdComp(c *cli.Context) {
         panic(err)
     }
 
-    raw2, err := ioutil.ReadFile(c.Args()[1])
+    raw2, err := ioutil.ReadFile(c.Args()[0])
     if err != nil {
         panic(err)
     }
